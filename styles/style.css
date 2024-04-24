@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER START*/
+
+.header__container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px grey inset;
+}
+
+.header__logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header__logo i{
+    border: 3px green inset;
+    border-radius: 50%;
+    padding: 6px;
+    color: green;
+    font-size: 20px;
+}
+
+.header__logo h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+.header__nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__nav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header__btn{
+
+     padding: 3px 6px 3px 5px;
+     font-size: 15px;
+     color: white;
+     background-color: green;
+     border-radius: 10px;
+ }
+.header__btn i{
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+/*HEADER END*/
+
+.main__container{
+    display: flex;
+    width: 1200px;
+    height: auto;
+    margin: 15px auto;
+    padding-left: 45px;
+    padding-top: 95px;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.text__box{
+    width: 500px;
+    height: 300px;
+}
+
+.text__box h2{
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+
+.text__box h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+
+.text__box span{
+    padding: 10px 0 0 0;
+    color: green;
+}
+
+.text__box p{
+    font-size: 15px;
+    color: grey;
+
+}
+
+
+.img__box{
+    width: 500px;
+    height: 300px;
+}
+
+.main__btn{
+    margin: 20px 0 0 15px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+
+
