@@ -109,8 +109,16 @@
 
 
 .img__box{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
     width: 500px;
     height: 300px;
+}
+
+.small{
+    position: absolute;
+    left: 93%;
 }
 
 .main__btn{
