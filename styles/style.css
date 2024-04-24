@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*HEADER START*/
@@ -53,12 +54,12 @@
 }
 
 .header__btn{
-
      padding: 3px 6px 3px 5px;
      font-size: 15px;
      color: white;
      background-color: green;
      border-radius: 10px;
+    cursor: pointer;
  }
 .header__btn i{
     padding-right: 10px;
@@ -119,8 +120,9 @@
     color: white;
     background-color: green;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-
+/*MAIN END*/
 
 
